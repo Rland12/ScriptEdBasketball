@@ -1,3 +1,42 @@
-body {
+body{
     font-family: Helvetica;
+    background:url("https://media.giphy.com/media/K5kfQExKk731K/giphy.gif");
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:white;
 }
+#player-one-score {
+    font-style: italic;
+    color: turquoise;
+    font-size: 28px;
+}
+#player-two-score {
+    font-style: italic;
+    color: turquoise;
+    font-size: 28px;
+}
+.player-one-name{
+    font-size:30px;
+    position:relative;
+    clear:both;
+}
+.player-two-name{
+    font-size:30px;
+    clear:both;
+}
+.bird {
+    width: 150px;
+    height: 150px;
+    padding: 1px 7px 0px 0px;
+    float:left;
+}
+
+.wolf {
+    width: 150px;
+    height: 150px;
+   float:right;
+   
+}
+/*.js-two-pointer{
+  
+}*/

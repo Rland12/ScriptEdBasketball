@@ -45,7 +45,7 @@ $(document).ready(function(){
         if(window.isEndOfGame(currentScore, playerName)){
             startGame();
         }
-    }
+    };
     
     $(".js-two-pointer").click(function(){
        var success = window.tryTwoPointShot();
